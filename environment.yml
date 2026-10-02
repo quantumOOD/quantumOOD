@@ -1,0 +1,23 @@
+name: quantum-ood
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - tqdm
+  - statsmodels
+  - pip
+  - pip:
+      - torch
+      - torchvision
+      - qiskit
+      - qiskit-aer
+      - qiskit-ibm-runtime
+      - qiskit-machine-learning
+      - pennylane
+      - pennylane-lightning
