@@ -70,7 +70,7 @@ or the full run: `bash run_rq1.sh`.
 
 ### RQ1.2 — Configuration of VQCs
 
-Ablates rotation gate (RX/RY/RX+RZ) x entangling gate (CNOT/CRY) for the reconstruction/GAN detectors:
+Ablates rotation gate (RX/RY/RZ/RX+RZ) x entangling gate (CNOT/CRY) for the reconstruction/GAN detectors:
 
 ```bash
 cd main_experiments
